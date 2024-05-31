@@ -1,9 +1,9 @@
-let courseInfo = {
+const courseInfo = {
     id: 15,
     name: "Death Poets"  
 }; 
 
-let assignmentGroup = {
+const assignmentGroup = {
     id: 22,
     name: "Fashion of Anarchists",
     courseId: 45,
@@ -30,7 +30,7 @@ let assignmentGroup = {
     ] 
 }; 
 
-const LearnerSubmissions = [
+const learnerSubmissions = [
     {
         learnerId: 18,
         assignmentId: 100,
@@ -73,3 +73,8 @@ const LearnerSubmissions = [
     }
 ]
 
+for(let i = 0; i < learnerSubmissions.length; i++) {
+    if (learnerSubmissions[i].learnerId) {
+        console.log(learnerSubmissions[i].learnerId);
+    }
+}
