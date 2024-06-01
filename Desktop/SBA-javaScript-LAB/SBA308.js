@@ -105,3 +105,9 @@ while (studentScore2 === 141) {
         console.log("learnerId" + " " + "55" + " " + "aveerage" + " " + studentScore2)
     }
 }
+
+let courseSubjects = ["Intellectuals in Exile", "Philosophy of Anarchists", "Strength of Economists"];
+let optionalCourses = ["Properties of Finesse", "The Vitality of Style", "The Nonexistence of True Love", "Learning as a Supreme Activity"]
+
+let updatedCourses = courseSubjects.concat(optionalCourses);
+console.log(updatedCourses);
