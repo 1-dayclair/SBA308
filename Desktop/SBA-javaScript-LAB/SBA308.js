@@ -73,13 +73,35 @@ const learnerSubmissions = [
     }
 ]
 
-// for(let i = 0; i < learnerSubmissions.length; i++) {
-//     if (learnerSubmissions[i].learnerId) {
-//         console.log(learnerSubmissions[i].learnerId);
-//         continue;
-//     }
-// }
+for(let i = 0; i < learnerSubmissions.length; i++) {
+    if (learnerSubmissions[i].learnerId) {
+        console.log("Learner Id" + " " + learnerSubmissions[i].learnerId);
+        continue;
+    }
+}
 
 for(const c of learnerSubmissions) {
     console.log(c)
+}
+
+// let x = avg 
+let studentScore1 = 197 
+let studentScore2 = 141 
+let yourPoints1 = 200 
+let yourPoints2 = 150 
+
+studentScore1 = 197 
+
+while (studentScore1 === 197) {
+    studentScore1 /= yourPoints1; {
+        console.log("learnerId" + " " + "18" + " " + "average" + " " + studentScore1)
+    }
+}
+
+studentScore2
+
+while (studentScore2 === 141) {
+    studentScore2 /= yourPoints2; {
+        console.log("learnerId" + " " + "55" + " " + "aveerage" + " " + studentScore2)
+    }
 }
