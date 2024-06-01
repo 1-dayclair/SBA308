@@ -111,3 +111,7 @@ let optionalCourses = ["Properties of Finesse", "The Vitality of Style", "The No
 
 let updatedCourses = courseSubjects.concat(optionalCourses);
 console.log(updatedCourses);
+
+let correctedCourses = updatedCourses.splice(5, 1, "Importance of Strippers", "Timing of Gender Roles")
+
+console.log(updatedCourses);
