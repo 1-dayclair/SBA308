@@ -73,8 +73,13 @@ const learnerSubmissions = [
     }
 ]
 
-for(let i = 0; i < learnerSubmissions.length; i++) {
-    if (learnerSubmissions[i].learnerId) {
-        console.log(learnerSubmissions[i].learnerId);
-    }
+// for(let i = 0; i < learnerSubmissions.length; i++) {
+//     if (learnerSubmissions[i].learnerId) {
+//         console.log(learnerSubmissions[i].learnerId);
+//         continue;
+//     }
+// }
+
+for(const c of learnerSubmissions) {
+    console.log(c)
 }
