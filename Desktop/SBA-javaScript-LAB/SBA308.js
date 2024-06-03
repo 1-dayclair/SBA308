@@ -119,19 +119,24 @@ console.log(updatedCourses);
 const extraCurricular = ["God is a Comedian", "Technical Futures Class", "How to Dress as Yourself, an Individual"]
 const extraCurricular2 = ["Black on Bof Sides", "Intimacy of Gummy Worms"]
 
-// // let v = extraCurricular2 
-// Function not working yet>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-// function courseCurriculum(v) {
-//     let result; 
-//     if (v === extraCurricular) {
-//         result = true;  
-//     }
-//     else if (v === extraCurricular2) {
-//         result = true; 
-//     }
-//     else {
-//         result = extraCurricular.concat(extraCurricular2);
-//     }
-// }
+let v = extraCurricular 
+let f = extraCurricular2
 
-// console.log(courseCurriculum(extraCurricular2))
+try{
+    function courseCurriculum(v, f) {
+        let result; 
+        if (v) {
+            return true;  
+        }
+        else if (f) {
+            return true; 
+        }
+        else {
+            return extraCurricular.concat(extraCurricular2);
+        }
+    }
+    console.log(courseCurriculum(v,f));
+} catch (error) {
+    console.log("There has been an error. Please, try again")
+}
+
