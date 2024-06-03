@@ -1,2 +1,2 @@
-As of now, Im far from finisheed and I will be updating. 
+*Updated
 _Day 
