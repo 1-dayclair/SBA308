@@ -122,14 +122,19 @@ const extraCurricular2 = ["Black on Bof Sides", "Intimacy of Gummy Worms"]
 let v = extraCurricular 
 let f = extraCurricular2
 
-try{
+try {
     function courseCurriculum(v, f) {
-        let result; 
         if (v) {
             return true;  
         }
         else if (f) {
             return true; 
+        }
+        else if (!v) {
+            return false;
+        }
+        else if (!f) {
+            return false;
         }
         else {
             return extraCurricular.concat(extraCurricular2);
@@ -140,3 +145,8 @@ try{
     console.log("There has been an error. Please, try again")
 }
 
+try {
+    godTheLordPrayer ();
+} catch (error) {
+    console.error("Apologies, Do you know what you are looking for now? Contact the Lord if you need a prayer."); 
+}
