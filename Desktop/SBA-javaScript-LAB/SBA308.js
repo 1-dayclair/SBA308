@@ -84,7 +84,7 @@ for(const c of learnerSubmissions) {
     console.log(c)
 }
 
-// let x = avg 
+ 
 let studentScore1 = 197 
 let studentScore2 = 141 
 let yourPoints1 = 200 
@@ -115,3 +115,23 @@ console.log(updatedCourses);
 let correctedCourses = updatedCourses.splice(5, 1, "Importance of Strippers", "Timing of Gender Roles")
 
 console.log(updatedCourses);
+
+const extraCurricular = ["God is a Comedian", "Technical Futures Class", "How to Dress as Yourself, an Individual"]
+const extraCurricular2 = ["Black on Bof Sides", "Intimacy of Gummy Worms"]
+
+// // let v = extraCurricular2 
+// Function not working yet>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// function courseCurriculum(v) {
+//     let result; 
+//     if (v === extraCurricular) {
+//         result = true;  
+//     }
+//     else if (v === extraCurricular2) {
+//         result = true; 
+//     }
+//     else {
+//         result = extraCurricular.concat(extraCurricular2);
+//     }
+// }
+
+// console.log(courseCurriculum(extraCurricular2))
